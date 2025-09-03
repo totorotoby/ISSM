@@ -14,6 +14,7 @@ ISSM_CONFIG='\
 	--without-fortran \
 	--without-Sealevelchange \
 	--without-Love \
+	--without-kml \
 	--without-kriging \
 	--with-gsl-dir="${ISSM_DIR}/externalpackages/gsl/install" \
 	--with-triangle-dir="${ISSM_DIR}/externalpackages/triangle/install" \
@@ -24,7 +25,7 @@ ISSM_CONFIG='\
 #-------------------#
 
 EXTERNALPACKAGES="
-	autotools	install-linux.sh
+	autotools	install-mac.sh
 	cmake		install.sh
 	emscripten	install.sh
 	gsl			install-javascript.sh
